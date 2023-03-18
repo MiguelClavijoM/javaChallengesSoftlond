@@ -9,7 +9,7 @@ public class Main {
 //    System.out.println(factura0.valor);
 
     //PUNTO #2
-    CuentaBancaria cuenta0 = new CuentaBancaria(5000, 0.1f);
+    CuentaBancaria cuenta0 = new CuentaBancaria(10000, 0.1f);
 
     cuenta0.valores();
     cuenta0.retiro(1000);
@@ -17,6 +17,9 @@ public class Main {
     cuenta0.extractoMensual();
     cuenta0.interesMensual();
 
+    CuentaAhorros cuenta1 = new CuentaAhorros(500, 0.1f);
 
+    cuenta1.estado();
+    cuenta1.consignacion(561);
   }
 }
