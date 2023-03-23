@@ -4,7 +4,7 @@ public class CalcularRaiz {
     try{
       double result = Math.sqrt(num);
       if(num < 0){
-        throw new ArithmeticException("Can't run it because the result is negative");
+        throw new ArithmeticException("No se puede ejecutar porque el resultado es negativo");
       }
     } catch (ArithmeticException e) {
       throw new RuntimeException(e);

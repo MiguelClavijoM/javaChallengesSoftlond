@@ -26,5 +26,7 @@ public class CuentaAhorros extends CuentaBancaria{
       super.consignacion(num);
     }
     }
+
+
   }
 
