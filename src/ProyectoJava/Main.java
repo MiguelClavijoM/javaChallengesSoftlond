@@ -17,9 +17,16 @@ public class Main {
     cuenta0.extractoMensual();
     cuenta0.interesMensual();
 
-    CuentaAhorros cuenta1 = new CuentaAhorros(500, 0.1f);
+    CuentaAhorros cuenta1 = new CuentaAhorros(20000, 0.1f);
 
     cuenta1.estado();
     cuenta1.consignacion(561);
+    cuenta1.consignacion(561);
+    cuenta1.consignacion(561);
+    cuenta1.retiro(600);
+    cuenta1.retiro(400);
+    cuenta1.retiro(200);
+    cuenta1.extractoMensual();
+    cuenta1.imprimir();
   }
 }
